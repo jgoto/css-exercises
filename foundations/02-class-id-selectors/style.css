@@ -1,0 +1,29 @@
+/* All odd numbered elements: 
+        a light red/pink background, 
+        a list of fonts containing Verdana and DejaVu Sans with sans-serif as a fallback
+    The second element: blue text 
+        font size of 36px
+    The third element: in addition font size of 24px
+    The fourth element: a light green background, a 
+        font size of 24px, 
+        bold */
+
+p{
+    background-color: pink;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+#number-2{
+    color: blue;
+    font-size: 36px;
+}
+
+.number-3 {
+    font-size: 24px;
+}
+
+div.number-4 {
+    font-weight: bold;
+    background-color: lightgreen;
+    font-size: 24px;
+}
